@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 100%;
+    max-width: 1168px;
+    background-color: rgb(198, 179, 179);
+    margin: 0 auto;
+    background-color:#222222;
+}
+.feat-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 100%;
+    max-width: 379px;
+    margin-bottom: 16px;
+    height: 490px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 20px;
+    text-align: center;
+}
+body{
+    background-color:#222222;
+}
